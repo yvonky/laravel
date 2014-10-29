@@ -6,12 +6,13 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"cartalyst/sentry": "2.1.4",
-		"fzaninotto/faker": "1.5.*@dev"
+		"phpunit/phpunit": "4.3.4",
+		"mockery/mockery": "0.7.2",
+		"edvinaskrucas/notification": "3.0.1"
 	},
 	"require-dev": {
     	"way/generators": "~2.0",
 		"fzaninotto/faker": "1.5.*@dev",
-		"phpunit/phpunit": "4.5.*@dev",
 		"squizlabs/php_codesniffer": "dev-master"
 	},
 	"autoload": {
@@ -21,7 +22,8 @@
 			"app/models",
 			"app/database/migrations",
 			"app/database/seeds",
-			"app/tests/TestCase.php"
+			"app/tests/TestCase.php",
+			"app/services"
 		]
 	},
 	"scripts": {
